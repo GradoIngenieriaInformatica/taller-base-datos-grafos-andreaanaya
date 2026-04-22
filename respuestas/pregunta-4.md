@@ -1,0 +1,3 @@
+MATCH (p:Persona)-[r]-()
+RETURN p.nombre, COUNT(r) AS total_relaciones
+ORDER BY total_relaciones DESC
