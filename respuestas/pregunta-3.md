@@ -1,0 +1,2 @@
+MATCH (p:Persona)-[:TRABAJA_EN]->(e:Empresa)-[:UBICADA_EN]->(c:Ciudad)
+RETURN p, e, c
